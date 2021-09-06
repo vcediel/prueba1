@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>CONTROLES DE TEXTO</p>
+    <form action="../form-result.php" target="_blank"><!--blank pra guardar en otro lado /php para recoger formularios en htm-->
+        <input type="submit"value ="Enviar formulario">
+    </form>
+<hr/>
+<p>CAMPO MULTILINEA</p> 
+    <form action="../form-result.php" target="_blank">
+    <p>Ingrese nombre completo: <input type="text" name="nombrecompleto"></p>
+    <p>Deja tu mensaje: <br/>
+        <textarea name="mensaje" id="" cols="30" rows="10">Infrese la información</textarea>
+    </p>
+    <input type="submit" value="Enviar información">
+    </form>
+    <hr/>
+<p>CONTROLES DE OPCION</p>
+<P>casillas de verdficacion</P>
+<form action="../form-result.php" target="_blank">
+    <p>Seleciona tus hobbies: <br/>
+        <input type="checkbox" name="peliculas"> peñiculas<br/>
+        <input type="checkbox" name="Deportes"> Deportes <br/>
+        <input type="checkbox" name="videojuegos">Videojuego <br/>
+        <input type="checkbox" name="cocinar"> cocinar <br/>
+    </p>
+    <input type="submint" value="Enviar Informacion">
+</form>
+<hr/>
+<P>Botones de opcion</P>
+<form action="../form-result.php" target="_blank">
+    <p>
+        Ingresos: <br/>
+        <input type="radio" name="Ingresos" values="menos de 100000000">menos deun millon<br/>
+        <input type="radio" name="Ingresos" values=" de 1000 a1500"> de 1000 a 1500<br/>
+        <input type="radio" name="Ingresos" values=" de 1550 a 2500">de 1550 a 2500<br/>
+        <input type="radio" name="Ingresos" values=" mas de 2550 ">mas de 2550 <br/>
+        <input type="radio" name="Ingresos" values=" no aplica rango">no aplica rango<br/>
+    </p>
+    <input type="submint" value="Enviar Informacion">
+</form>
+<P>Manejo de listas</P>
+<form action="../form-result.php" target="_blank"></form>
+    <p>
+        Seleccione genero:
+        <select name="genero" >
+            <option value="masculino">Masculino</option>
+            <option value="Femenino">femenino</option>
+        </select>
+        <br/>
+        <br/>
+        <input type="submint" value="Enviar Informacion">
+    </p>
+</form>
+<hr/>
+<p>Manejo de listas con varioas selecciones</p>
+<form action="../form-result.php" target="_blank"></form>
+    <p>
+        Por favor seleccione las categorias de television de su preferencia:
+        <br/>
+        <select miltiple name="categotias []">
+            <option value="arte">Arte y entrtenimiento</option>
+            <option value="accion">Series de accion</option>
+            <option value="niños">comics </option>
+            <option value="naturaleza"> Ecologia</option>
+        </select>
+    </p>
+</form>
+<hr/>
+<p>MANEJO DE LA INSTRUCCION RESET</p>
+<form action="../form-result.php" target="_blank">
+ <p>Enviar mensaje: <input type="text" name="mensaje" value="Enviar Mensaje!!!"></p>  
+ <p> <input type="radio" name="cuando"  value= "hoy" checked>hoy <br/>
+     <input type="radio" name="cuando"  value= "hoy" checked>mañana <br/>
+ </p> 
+ <p><input type="checkbox" name="copia" checked>Enviame una copia</p>
+ <p>
+     <input type="reset"value="reiniciar formulario">
+     <input type="submit" value="enviar mensaje">
+ </p>
+</FORM>
+<hr/>
+<p>ETIQUETADO DE CONTROLES</p>
+<form action="../form-result.php" target="_blank">
+    <p><label>nombre: <input type="text" name="nombre"></label></p>
+    <p>
+        genero:
+        <label><input type="radio" name="genero" value="masculino"> masculino </label > 
+        <label><input type="radio" name="genero" value="femenino"> femenino</label >
+    </p>
+    <input type="submit" value="enviar mensaje">
+</form>
+<hr/>
+<p>Agrupacion de controles</p>
+<form action="../form-result.php" target="_blank"></form>
+<fieldset>
+        <legend>Informacion personal</legend>
+        <p><label>nombre: <input type="text" name="nombre"></label></p><br/>
+        <p><label>Apellido: <input type="text" name="apellido"></label></p><br/>
+        <p><label>ditrccion: <input type="text" name="direccion"></label></p><br/>
+       <p><label>edad: <input type="number" name="edad"></label></p><br/>
+</fieldset>
+<fieldset>
+    <legend>Preferencias</legend>
+    <p>Seleciona tus hobbies: <br/>
+        <label><input type="checkbox" name="peliculas"> peñiculas</label><br/>
+        <label></label><input type="checkbox" name="Deportes"> Deportes </label><br/>
+        </label><input type="checkbox" name="videojuegos">Videojuego</label> <br/>
+        </label><input type="checkbox" name="cocinar"> cocinar </label><br/>
+    </p>
+</fieldset>
+</form>
+</body>
+</html>
