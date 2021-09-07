@@ -1,0 +1,107 @@
+/*MODELOS DE PROCESAMIENTO CSS */
+
+/*body{
+    background-color: rgb(215, 238, 238);
+    color: rgb(110, 52, 52);
+}*/
+/*
+h1{
+    background: cadetblue;
+    color:cornflowerblue;
+}
+h2{
+    background: hotpink;
+    color: lavender;
+}
+
+/*PARA HACER CAMBIOS EN DISTINTOS GRUPOS DE TEXTO
+h1, h2{
+    background: blueviolet;
+    color: cornsilk;
+}
+p{
+    background: crimson;
+    color: darkgrey;
+}*/
+
+
+/*´para llamar CLASES O EL objeto utilizae punto*/
+.verso{
+    /*se puede correr utilizando %. pixeles y em*/
+   margin-left: 10%;
+    background: darkslateblue;
+    color: rgb(167, 162, 154);
+    border-radius: 10em; /*borde redondeado*/
+}
+
+.verso2{
+    /*se puede correr utilizando %. pixeles y em*/
+    margin-right: 10%;
+    background: rgb(85, 78, 129);
+    color: rgb(233, 226, 214);
+}
+/*Identificadores*/
+#golondrinas{
+    background: hotpink;
+    color: green;
+    /* para hacer margenes de a una*/
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left:18em;
+    margin-right: 18em;
+    /*para hacer las margenes con % y en todas las lineas*/
+    margin: 4%, 2%, 5%, 10%;
+    border: 5px double  black;
+    /*alinear texto*/
+    text-indent:3em; /*medida o %*/
+    text-align:left; /*alineacion de texto: left, right,center,justify*/
+    vertical-align: baseline;/*baseline, top,middle,bottom,%*/
+    text-decoration: overline;/*none, underline, overline,line-through,blink*/
+    text-transform: uppercase;/*noce, capitalize,lowercase,uppercase*/
+
+
+    
+}
+article.poema{
+    margin-left: 4em;
+}
+article.poema2{
+    margin-left: 8em;
+}
+
+/*HERENCIA-
+SELECTORES*/
+*{
+    border:lightblue;
+    background: rgb(115, 123, 150);
+    border-style:dotted ; /*borde de ounticos*/
+}
+div  p {
+    border-style:dotted ; /*borde de ounticos*/
+    background: rgb(44, 52, 78);
+    color: skyblue;
+}
+h1 + p{
+    background: teal;
+    color: tomato;
+}*/
+a:link {
+    background: teal;
+    color: rgb(190, 120, 190);
+}
+a:hover{/*mouse se desliza por el texto*/
+    background: yellow;
+    color: tomato;
+}    
+a:active{ /*cambia de estilo al abandonar el clic*/
+    background: rgb(192, 202, 211);
+    color: rgb(29, 37, 13);
+}
+a:focus{/*cuando el link tiene el focus*/
+    background: violet;
+    color: slategrey;
+}
+#parrafo1{
+    text-transform: uppercase;
+    text-shadow: /*Horizontal*/20xp, /*vertical*/10xp, /*borrosidad */ 8xp /*colot*/ pink;
+}
