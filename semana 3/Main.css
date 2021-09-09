@@ -30,7 +30,7 @@ p{
     /*se puede correr utilizando %. pixeles y em*/
    margin-left: 10%;
     background: darkslateblue;
-    color: rgb(167, 162, 154);
+    color: rgb(215, 245, 242);
     border-radius: 10em; /*borde redondeado*/
 }
 
@@ -38,7 +38,7 @@ p{
     /*se puede correr utilizando %. pixeles y em*/
     margin-right: 10%;
     background: rgb(85, 78, 129);
-    color: rgb(233, 226, 214);
+    color: rgb(201, 140, 36);
 }
 /*Identificadores*/
 #golondrinas{
@@ -104,4 +104,22 @@ a:focus{/*cuando el link tiene el focus*/
 #parrafo1{
     text-transform: uppercase;
     text-shadow: /*Horizontal*/20xp, /*vertical*/10xp, /*borrosidad */ 8xp /*colot*/ pink;
+    text-decoration-style: dotted;
+    text-decoration-color: steelblue;
+}
+#texto{ /*todo bloque de texto es una caja*/
+    background: darkgreen;
+    height: 15em;
+    width: 25em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    font-style: italic;
+    margin: 4em 4em 4em 4em;
+    padding-left: 5em;
+    border-style: dotted;
+    border-radius: 2em;
+    border-color: darkorange;
+    border-width: 3em;
+    box-shadow: 10px 10px 0 px 10px rgb(190, 120, 190) inset;
+
 }

@@ -1,0 +1,24 @@
+.box{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: darkred;
+    color: ghostwhite;
+    
+}
+/*posicionamiento  relativo*/
+#two{
+    position: relative;
+    background: pink;
+    color: purple;
+    top: 20px;
+    left: 20px;
+}
+/*posicionamiento  absoluto*/
+#three{
+    position: absolute;
+    background: pink;
+    color: purple;
+    top: 20px;
+    left: 20px;
+}

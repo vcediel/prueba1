@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin-top: 3em;
+    background: darkslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    background-color: indianred;
+    width:80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius:2em;
+}
+header{
+    background: rgb(177, 118, 75);
+    margin: 20px 0;
+    background-image: url('http://placekitten.com/2500/200');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+header h1{
+    color:ivory;
+    padding: 20px 0;
+    text-align: center;
+}
+.main{
+    width: 70%;
+    background:cornflowerblue;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+aside{
+    width: 30%;
+    padding:20px;
+    background-origin: padding-box;
+    box-sizing: border-box;
+    background: cornsilk;
+    float: right;
+}
+footer{
+    clear: both;
+    float:left;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width:100%;
+    padding:20px;
+    color: white;
+    background: black;
+}
+@media screen and (max-width: 800px){
+    body{
+        background: seagreen; 
+    }
+    .main{
+        width:100%;
+    }
+    aside{
+        width:100%;
+    }
+}
+@media screen and (max-width: 400px){
+    .contenedor {
+        width: 100%;
+    }
+    aside{
+        display:none;
+    }
+     footer{
+        background: rgb(179, 111, 179);
+        font-style: italic;
+        color:rebeccapurple;
+        text-decoration: underline;
+    }
+}    
+
+@media screen and (max-width:400px) and (min-width:200px) {
+    header{
+        background-image: url();
+        display:none;
+    }   
+}
