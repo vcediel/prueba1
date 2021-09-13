@@ -1,0 +1,64 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+#contenedor{
+    width: 1200px;/*ancho*/
+    background: goldenrod;
+    height: 1200px;/*altura*/
+    margin: 0.5em auto;
+    padding: 0.5em;/*es el espacio entre el contenido del elemento y su borde*/
+}
+#header{
+    height: 15%;
+    background: green;
+    border-radius:0.5em;
+    padding: 10px;
+    text-align: center;
+    color: hotpink;
+    font: italic;
+}
+#nave{
+    height: 10%;
+    background: darkred;
+    border-radius: 1em;
+    margin: 0.5em;
+    color: khaki;
+    padding: 10px;
+    font: medium;
+}
+#contenidos{
+    height: 65%; ;
+    border-radius: 1em;
+    margin: 0.5em;
+    background: blueviolet;
+    padding: 10px;
+}
+#footer{
+    height: 10%;
+    background: cadetblue;
+    color: darkgoldenrod;
+    border-radius: 1em;
+    margin: 0.5em;
+    padding: 1em;
+}
+#section{
+    height: 96%;
+    width: 60%;
+    background: darkolivegreen;
+    border-radius: 1em;
+    float: left;
+    margin: 0.5em;
+    padding: 5px;
+    color: darksalmon;
+}
+#aside{
+    height: 96%;
+    width: 30%;
+    background: lightcyan;
+    border-radius: 1em;
+    float: right;
+    margin: 0.5em;
+    padding: 12px;
+    color: black ;
+}
