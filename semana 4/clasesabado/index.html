@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+    function validateform(){
+        let x=document.forms["fmr"]["documento"].value;
+        if (x==""){
+            alert("debes infresar datos");
+            return false;
+        }
+    }
+</script>    
+    
+</head>
+<body>
+    
+
+   <!--  <div id="main">
+        <p>1. Encontrado elemento HTML.</p>
+        <p> 2. ESTO ES UN EJEMPLO</p>
+    </div>
+    <p id="union"></p> -->
+
+
+   <!--  <P>Encontrar codigo html</P>
+    <p>Codigo HTML localizado</p>
+    <p id="union"></p> xxxx </p>
+ -->
+   <!--  /*Dom tree of object*/
+    <p id="llamado">no quiero saludar</p>
+    <h1 id= titulo>TITULO PAGINA WEB</h1>
+    <P>1. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis natus labore facere architecto possimus fuga. Ullam sapiente eaque repudiandae exercitationem nemo excepturi harum ex maiores ea quas, accusamus tempore! Veritatis.</P>
+    <p id="segundo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo soluta dolorum vel numquam aperiam reiciendis quas facilis quam, officiis, esse vero consequuntur quidem perferendis totam incidunt velit nostrum perspiciatis voluptatibus!</p>
+    <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, iste. Enim nulla itaque aspernatur quis ab distinctio! Aperiam rem minus dolorem ipsum esse possimus sit illum iste sapiente! Reprehenderit, odit?</p> -->
+     
+    <!-- <h1>ejercicio javaScript</h1>
+    <p>1. Encontrando elemnentos HTML</p>
+    <P>2.eNCONTANDO ELEMENTO HTML2. </P>
+    <P>esto es un ejemplo</P>
+    <b>Elemento tipo B</b>
+    <p id="union"></p>
+ -->
+<!-- 
+    <h2>TITULO XX</h2>
+    <p>encontrar elementos por query Selector</p>
+    <p class="intro">hola todos</p>
+    <p class="intro">como estan</p>
+    <b>query selector</b>
+    <p id="union"></p>
+ -->
+    <!-- <form  id="fmr" saction="">
+        primer nombre: <input type="text" name="fname" value="primer nombre" ><br/>
+        segundo nombre: <input type="text" name="sname" value="segundo nombrer nombre" ><br/>
+        <input type="submit" value="ingresar datos">
+    </form>
+    <br/>
+    <p>Esta es una prueba    </p>
+    <p id="union">resultado</p> -->
+    <!-- imagen 
+    <img id="mi imagen" src="http://placekitten.com/100/200" alt="imagen">
+--><!-- Para imprimir hota actual
+    <p>fecha actual:</p>
+    <p id="datoSistema">fecha actual</p>    -->
+    <!-- validacion 
+    <form  id="fmr" action="" onsubmit="return validateform()" method="POST">
+        primer nombre: <input type="text" name="fname" value="primer nombre" ><br/>
+        segundo nombre: <input type="text" name="sname" value="segundo nombrer nombre" ><br/>
+        <input type="submit" value="ingresar ">
+    </form>
+    <br/>-->
+    <!-- botones -->
+    <h1 id="id1">cambio 1</h1>
+    <p id="p1">
+        cambios a este texto,
+        cambios a este texto,
+        cambios a este texto,
+        cambios a este texto,
+    </p>
+    <input type="button" value="ocultar texto" onclick="document.getElementById('p1').style.visibility='hidden'">
+    <input type="button" value="mostrar texto" onclick="document.getElementById('p1').style.visibility='visible'">
+
+    <button type="button" onclick="document.getElementById('id1').style.color='red'">Dar click para ver efecto</button>
+   
+    <script>
+
+        /* validacion  */
+        /* para imprimir fecha actual 
+        document.getElementById("datoSistema").innerHTML="Date: "+Date();
+        document.write(Date());*/
+
+        /* imagen 
+        document.getElementById("miImagen").src="http://placekitten.com/200/300"*/
+        /* formulario
+        const x=document.forms["fmr"];
+        let text="";
+        for(let i=0; i<x.length;i++){
+            text+=x.elements[i].value+"<br/>"
+        }
+        document.getElementById("union").innerHTML=text; */
+
+       /*  const x=document.querySelectorAll("p.intro");
+        document.getElementById("union").innerHTML="REsultado..."+x[0].innerHTML+x[0].innerHTML;
+ */
+
+        /*let elementos P=document.getElementByTagName("P");
+        let segundoParrafo=document.getElementById("segundo");*/
+        /*propiedad inner HTML*/
+
+        /* const elemento=document.getElementsByTagName("p");
+        document.getElementById("union").innerHTML="La impresion seria..."+elemento[0].innerHTML;
+ */
+        /* const x=document.getElementById("main");
+        const y=x.getElementByName("p");
+        document.getElementById("union").innerHTML="primer elemento main: "+y[0].innerHTML; */
+       
+       
+       
+       
+        const x=document.getElementsByClassName("clase");
+        document.getElementById("union").innerHTML="Elemento de la clase: "+x[1].innerHTML;
+    
+    </script> 
+</body>
+</html>
