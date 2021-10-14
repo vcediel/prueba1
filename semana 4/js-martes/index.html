@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=script, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>Ejercicios en clase</h1>
+    <script>
+        let nombre, apellidos;
+        nombre=prompt("ingrese su nombre");//similar a alert
+        apellidos=prompt("ingresa tus apellidos")
+        alert("esto es una prueba y te llamas ", +nombre+ " y tu apellido es " +apellidos);
+        document.write("nombre: ",nombre, " Apellido: " +apellidos);
+        console.log(apellidos); -->
+    </script> 
+    <hr><br>
+    <script>  
+    //CLASE EJERCICIOS
+        //1) lea  un numero por pantalla y valide si es par-- imprima: pompt/document/consola
+        //2) lea en pantalla un codigo, peso , estatura-->IMC: <=20 (DELGADA) ENTRE 20 Y 25(NORMAL) S6 SOBREPESO
+
+        //1)
+        //pantalla
+       /*  let numero;
+        numero=prompt("ingrese un numero");
+        numero2=numero%2;
+        if (numero2==0){
+            alert("el numero "+numero+"es par")
+            document.write("el numero "+numero+"es par")
+            console.log("el numero "+numero+"es par")
+        }else{
+            alert("el numero "+numero+" es impar")
+            document.write("el numero "+numero+"es impar")
+            console.log("el numero "+numero+"es impar")
+        }
+ */
+    </script> 
+    <!-- <script>
+        let cod=prompt("ingrese su codigo");
+        let peso=prompt("ingrese su peso");
+        let estatura=prompt("Ingrese estatura");
+        let imc=peso/Math.pow(estatura,2);
+        if(imc<=20){
+            alert("su imc es "+imc.toFixed(2)+"y su estado es delgado");
+            document.write("su imc es "+imc.toFixed(2)+"y su estado es delgado");
+            console.log("su imc es "+imc.toFixed(2)+"y su estado es delgado");
+        }else if ((imc>20) &&(imc<25)){
+            alert ("su imc es "+imc.toFixed(2)+ "su estado es normal");
+            document.write("su imc es "+imc.toFixed(2)+ "su estado es normal");
+            console.get("su imc es "+imc.toFixed(2)+ "su estado es normal");
+        }else{
+            alert("su imc es "+imc.toFixed(2)+"su estado es sobrepeso");
+            document.write("su imc es "+imc.toFixed(2)+"su estado es sobrepeso");
+            console.get("su imc es "+imc.toFixed(2)+"su estado es sobrepeso");
+        }
+    </script> -->
+    <Script>
+        //while
+      /*   let contador
+        contador=5;
+            while(contador>0){
+                document.write("<br/> hola, esta es la impresion: ",contador);
+                console.log("hola mundo", contador);
+                contador--;
+            } */
+
+        /* let contador=0;
+        while(contador<20){
+            document.write("<br/> hola, esta es la impresion: ",contador);
+            console.log("hola mundo", contador);
+            contador++;
+        }
+ */
+/* 
+    let diaSemana=["lunes","Martes","Miercoles","jueves","viernes","Sabado","domingo"];
+    let cantidad=diaSemana.length-1;
+    let i=0;
+    document.write("<br/> i presion atraves de WHILE <b/>");
+    while(i<=cantidad){
+        document.write(diaSemana[i],"<br/> ");
+        i++;
+    }
+    document.write("<br/> i presion atraves de FOR <b/>");
+    for (let j=0;j<diaSemana.length;j++){
+        document.write(diaSemana[j],"<br/>");
+        console.log(diaSemana[j]);
+    }
+ */
+    /* arregloVacio=[];
+    let tam=prompt("cuantos datos desea ingresar a la lista");
+    for(let i=0; i<tam; i++){
+        let valor=prompt("ingresa el valor del dato: ");
+        arregloVacio[i]=valor;
+    }
+    /*arregloVacio[10]="juan";*/
+    //arregloVacio.push("carlos");//agrega elemento al final
+    /* arregloVacio.pop(); *///elimina ultimo elemento
+   /*  for(let j=0;j<arregloVacio.lenght;j++){
+        document.write(arregloVacio[j],"<br/>");
+        console.log(arregloVacio[j],"<br/>");
+    } */ 
+
+    //LEER UN ARREGLO DE EDADES Y CALCULR PROMEDIODE EDADES
+    //REALIZAR LA IMPRESIN EN EL DOCUEMTNO
+
+    arregloEdades=["5", "8","6","5","9"];
+    let i=0;
+    let promedio=Math.promedio(arregloEdades);
+    document.write("el promedio de edad es: "+promedio)
+    
+
+    </Script>
+
+
+
+    
+</body>
+</html>
